@@ -1,0 +1,60 @@
+* {
+    
+    box-sizing: border-box;
+    background-image: url(images/wallpaper.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body{
+    margin: 0px;
+}
+main{
+    margin-left: 10px;
+}
+header{
+    background-color: hsl(0, 0%, 86%);
+    text-align: center;
+    padding: 25px;
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+    overflow: hidden;
+}
+.navbar a{
+    color: grey;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    margin-left: 100px;
+    text-align: center;
+}
+.navbar a:hover{
+    color: black;
+    font-size: 1em;
+}
+.navbar li{
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: rgb(55, 1, 55);
+}
+aside{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+@media screen and (max-width:600px){
+    aside, section, article{
+        width: 100% ;
+    }
+}

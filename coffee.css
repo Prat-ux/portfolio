@@ -1,0 +1,43 @@
+body{
+    border: 3px solid;
+    display: flow-root;
+    background-image: url(images/wallpaper.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+    overflow: hidden;
+}
+.navbar a{
+    color: grey;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    margin-left: 100px;
+    text-align: center;
+}
+.navbar a:hover{
+    color: black;
+    font-size: 1em;
+}
+.navbar li{
+    float: left;
+}
+.coofee{
+    border-radius: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#image1{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#image2{
+    float: right;
+    margin-left: 10px;
+}

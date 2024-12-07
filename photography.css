@@ -1,0 +1,32 @@
+body{
+    background-image: url(images/wallpaper.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.photography{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(42, 27, 27);
+    text-align: center;
+}
+#phootos{
+    margin-left: 45%;
+}
+.photography a{
+    color: black;
+    text-decoration: none;
+    padding: 8px 10px;
+    display: inline-block;
+}
+.photography a.active{
+    background-color:aqua;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.photography a:hover:not(.active){
+    background-color: grey;
+    border-radius: 5px;
+}
